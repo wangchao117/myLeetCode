@@ -68,5 +68,7 @@ var removeElement = function(nums, val) {
         }
     }
     return nums.length
+
+    // 注：在http://www.php.cn/js-tutorial-362642.html得到一些提示
 };
 
