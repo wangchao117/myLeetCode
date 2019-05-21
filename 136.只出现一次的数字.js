@@ -7,7 +7,12 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums) {
-    
+var singleNumber = function (nums) {
+    let ret = 0;
+    for (let index = 0; index < nums.length; index++) {
+        const element = nums[index];
+        ret = ret ^ element;
+    }
+    return ret;
 };
 
